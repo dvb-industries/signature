@@ -1,0 +1,52 @@
+.signature {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 5px;
+    width: 400px;
+}
+
+.name {
+    display: inline-block;
+    color: gray;
+    width: 160px;
+    height: 40px;
+}
+
+.address {
+    position: absolute;
+    display: block;
+    width: 175px;
+    top: 3px;
+    right: 5px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 90%;
+    color: gray;
+}
+
+.corporate {
+    color: blue;
+}
+
+.contact {
+    font-size: 90%;
+    color: gray;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0px 0px 0px;
+}
+
+.contact dt {
+    float: left;
+    width: 5%;
+    color: blue;
+}
+
+.contact dd {
+    float: left;
+    width: 95%;
+    margin: 0px;
+}
